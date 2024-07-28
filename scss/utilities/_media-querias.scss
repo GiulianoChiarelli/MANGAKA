@@ -1,0 +1,36 @@
+@media screen and (max-width: 500px) {
+
+    .coleccionmanga {display: flow-root; text-align: center; 
+    }
+    .coleccionmanga1 {display: none;
+    }
+    .coleccionmangamobile {display: block; display: flow-root; text-align: center;
+    }
+    .imgmanga {margin: 3%; border: 3px solid $lightblue;
+    }
+    .carruselnone {display: none;
+    }
+    .video {display: none;
+    }
+    .videomobile {display: block;
+    }
+  
+    .bibliomanga {display: none;
+    } 
+    .bibliomangamobile {display: block;
+    }
+    .bibliomangamobile {display: block; display: flow-root; text-align: center;}
+        .margen {margin: 3%; border: 3px solid $lightblue;
+    }
+    .coleccionmanga {display: flex;}
+            
+        }
+    
+    .grilla2 {display: block}
+    .grilla {display: none}
+    
+
+    
+    
+    
+    

@@ -1,0 +1,22 @@
+header {
+    .navbar {color: rgb(7, 167, 164); background-color: rgb(34, 34, 34)
+        ;background: rgba( 114, 103, 119, 0.1 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8px );
+        -webkit-backdrop-filter: blur( 8px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    header .logo {margin: 0; height: 150px ; width: auto; cursor: pointer; }
+    header .logo:hover {transition: all 0.5s; transform: scale(1.2); }
+    .logo {height: 6rem; width: 6rem;}
+    .nav-link {color: rgb(196, 243, 242);
+font-weight: 500;
+padding: 6px 20px;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+border: 5px solid rgb(17, 191, 214);
+font-size: x-large;
+margin: 1%;}
+}}

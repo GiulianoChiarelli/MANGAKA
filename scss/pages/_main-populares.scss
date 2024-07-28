@@ -1,0 +1,82 @@
+.grilla {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    grid-template-areas:
+    "grilla1 grilla1 grilla1 grilla1"
+    "grilla2 grilla2 grilla2 grilla2"
+    "grilla3 grilla3 grilla4 grilla4"
+    "grilla5 grilla5 grilla6 grilla6"
+    "grilla7 grilla8 grilla9 grilla10";
+
+    #grilla1 {grid-area: grilla1;
+    }
+    #grilla2 {grid-area: grilla2;
+    }
+    #grilla3{grid-area: grilla3;
+    }
+    #grilla4 {grid-area: grilla4;
+    }
+    #grilla5 {grid-area: grilla5;
+    }
+    #grilla6{grid-area: grilla6;
+    }
+    #grilla7{grid-area: grilla7;
+    }
+    #grilla8{grid-area: grilla8;
+    }
+    #grilla9{grid-area: grilla9;
+    }
+    #grilla10{grid-area: grilla10;
+    }
+    }   
+
+    .grilla2 {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-areas:
+        "grilla21 grilla21 grilla21 grilla21"
+        "grilla22 grilla22 grilla22 grilla22"
+        "grilla23 grilla23 grilla23 grilla23"
+        "grilla24 grilla24 grilla24 grilla24"
+        "grilla25 grilla25 grilla25 grilla25"
+        "grilla26 grilla26 grilla26 grilla26"
+        "grilla27 grilla27 grilla27 grilla27"
+        "grilla28 grilla28 grilla28 grilla28"
+        "grilla29 grilla29 grilla29 grilla29"
+        "grilla210 grilla210 grilla210 grilla210";
+
+    #grilla21 {grid-area: grilla21;
+    }
+    #grilla22 {grid-area: grilla22;
+    }
+    #grilla23{grid-area: grilla23;
+    }
+    #grilla24 {grid-area: grilla24;
+    }
+    #grilla25 {grid-area: grilla25;
+    }
+    #grilla26{grid-area: grilla26;
+    }
+    #grilla27{grid-area: grilla27;
+    }
+    #grilla28{grid-area: grilla28;
+    }
+    #grilla29{grid-area: grilla29;
+    }
+    #grilla210{grid-area: grilla210;
+    }
+    }   
+    
+    .grilla2 {display: none}
+    
+    .tops {display: flex; text-align: center; 
+        .imgtops {border: 5px solid $backblack;
+}
+    }

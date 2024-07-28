@@ -1,0 +1,439 @@
+header {
+  background-color: rgb(34, 34, 34);
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+}
+
+#actual {
+  color: rgb(39, 151, 151);
+}
+
+.titulopag {
+  background-color: rgb(34, 34, 34);
+  margin: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.imgportada2 {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: rgb(7, 167, 164);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(7, 167, 164);
+  text-align: center;
+  font-weight: 900;
+  background: rgba(47, 46, 49, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.h2 {
+  text-align: center;
+  color: rgb(7, 167, 164);
+  background-color: rgb(34, 34, 34);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: left;
+  color: rgb(7, 167, 164);
+}
+
+p {
+  color: rgb(7, 167, 164);
+}
+
+.Opc {
+  text-align: center;
+  font-size: large;
+  font-weight: 800;
+}
+
+.imagenes {
+  display: flex;
+  text-align: center;
+}
+
+.click {
+  text-align: center;
+  color: rgb(7, 167, 164);
+  text-decoration-style: double;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.carruselnone {
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.carousel-inner {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.label {
+  color: aliceblue;
+}
+
+.abrirmenu {
+  display: none;
+}
+
+
+header .navbar {
+  color: rgb(7, 167, 164);
+  background-color: rgb(34, 34, 34);
+  background: rgba(114, 103, 119, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+header .navbar header .logo {
+  margin: 0;
+  height: 150px;
+  width: auto;
+  cursor: pointer;
+}
+header .navbar header .logo:hover {
+  transition: all 0.5s;
+  transform: scale(1.2);
+}
+header .navbar .logo {
+  height: 6rem;
+  width: 6rem;
+}
+header .navbar .nav-link {
+  color: rgb(196, 243, 242);
+  font-weight: 500;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border: 5px solid rgb(17, 191, 214);
+  font-size: x-large;
+  margin: 1%;
+}
+
+.form {
+  text-align: center;
+  color: beige;
+}
+
+.form {
+  background: #bb3e3e center center/contain no-repeat padding-box;
+}
+
+.bibliomanga {
+  background-color: rgb(34, 34, 34);
+  margin: 1%;
+  padding: 1%;
+  box-sizing: border-box;
+}
+.bibliomanga .coleccionmanga {
+  display: flex;
+}
+.bibliomanga .coleccionmanga .margen {
+  margin: 3.6%;
+  border: 4px solid rgb(29, 125, 138);
+  text-align: center;
+}
+
+.bibliomangamobile {
+  display: none;
+}
+
+.Carrusel .imgportada {
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.coleccionmanga1 {
+  display: block;
+  display: flex;
+}
+.coleccionmanga1 .manga {
+  margin: 3%;
+  border: 3px solid rgb(7, 167, 164);
+}
+
+.video {
+  text-align: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.videomobile {
+  display: none;
+}
+
+.coleccionmangamobile {
+  display: none;
+}
+
+.pagcas {
+  text-align: center;
+  display: inline;
+  margin: 1px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+.lector {
+  text-align: center;
+  width: 100vw;
+  max-width: 800px;
+  min-width: 370;
+  margin: auto;
+}
+.lector .imglector {
+  width: 100%;
+  max-width: 800px;
+  min-width: 370;
+  margin: auto;
+}
+
+.titulopag {
+  background-color: rgb(34, 34, 34);
+  margin: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.pagcas {
+  text-align: center;
+  display: inline;
+  margin: 1px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+.imgportada {
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.paginado {
+  text-align: center;
+  display: inline;
+  margin: 1px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+.lectormobile {display: none;}
+
+
+.grilla {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "grilla1 grilla1 grilla1 grilla1" "grilla2 grilla2 grilla2 grilla2" "grilla3 grilla3 grilla4 grilla4" "grilla5 grilla5 grilla6 grilla6" "grilla7 grilla8 grilla9 grilla10";
+}
+.grilla #grilla1 {
+  grid-area: grilla1;
+}
+.grilla #grilla2 {
+  grid-area: grilla2;
+}
+.grilla #grilla3 {
+  grid-area: grilla3;
+}
+.grilla #grilla4 {
+  grid-area: grilla4;
+}
+.grilla #grilla5 {
+  grid-area: grilla5;
+}
+.grilla #grilla6 {
+  grid-area: grilla6;
+}
+.grilla #grilla7 {
+  grid-area: grilla7;
+}
+.grilla #grilla8 {
+  grid-area: grilla8;
+}
+.grilla #grilla9 {
+  grid-area: grilla9;
+}
+.grilla #grilla10 {
+  grid-area: grilla10;
+}
+
+
+.grilla2 {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "grilla21 grilla21 grilla21 grilla21" "grilla22 grilla22 grilla22 grilla22" "grilla23 grilla23 grilla23 grilla23" "grilla24 grilla24 grilla24 grilla24" "grilla25 grilla25 grilla25 grilla25" "grilla26 grilla26 grilla26 grilla26" "grilla27 grilla27 grilla27 grilla27" "grilla28 grilla28 grilla28 grilla28" "grilla29 grilla29 grilla29 grilla29" "grilla210 grilla210 grilla210 grilla210";
+}
+.grilla2 #grilla21 {
+  grid-area: grilla21;
+}
+.grilla2 #grilla22 {
+  grid-area: grilla22;
+}
+.grilla2 #grilla23 {
+  grid-area: grilla23;
+}
+.grilla2 #grilla24 {
+  grid-area: grilla24;
+}
+.grilla2 #grilla25 {
+  grid-area: grilla25;
+}
+.grilla2 #grilla26 {
+  grid-area: grilla26;
+}
+.grilla2 #grilla27 {
+  grid-area: grilla27;
+}
+.grilla2 #grilla28 {
+  grid-area: grilla28;
+}
+.grilla2 #grilla29 {
+  grid-area: grilla29;
+}
+.grilla2 #grilla210 {
+  grid-area: grilla210;
+}
+
+.grilla2 {
+  display: none;}
+
+.tops {
+  display: flex;
+  text-align: center;
+}
+.tops .imgtops {
+  border: 5px solid rgb(34, 34, 34);
+}
+
+.titulopag {
+  background-color: rgb(34, 34, 34);
+  margin: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.imgportada2 {
+  text-align: center;
+  width: 100%;
+}
+
+.form {
+  text-align: center;
+  color: beige;
+  font-size: larger;
+}
+
+.form {
+  background: #bb3e3e center center/contain no-repeat padding-box;
+}
+
+footer {
+  background-color: black;
+}
+
+.redes {
+  color: rgb(7, 167, 164);
+  text-align: left;
+}
+
+@media screen and (max-width: 500px) 
+{
+  .coleccionmanga {
+    display: flow-root;
+    text-align: center;
+  }
+  .coleccionmanga1 {
+    display: none;
+  }
+  .coleccionmangamobile {
+    display: block;
+    display: flow-root;
+    text-align: center;
+  }
+  .imgmanga {
+    margin: 3%;
+    border: 3px solid rgb(7, 167, 164);
+  }
+  .carruselnone {
+    display: none;
+  }
+  .video {
+    display: none;
+  }
+  .videomobile {
+    display: block;
+  }
+  .bibliomanga {
+    display: none;
+  }
+  .bibliomangamobile {
+    display: block;
+  }
+  .bibliomangamobile {
+    display: block;
+    display: flow-root;
+    text-align: center;
+  }
+  .margen {
+    margin: 3%;
+    border: 3px solid rgb(7, 167, 164);
+  }
+  .coleccionmanga {
+    display: flex;
+  }
+
+.grilla2 {
+  display: block;
+}
+
+.grilla {
+  display: none;
+}
+
+.lector {display: none;}
+.lectormobile {display: block;}
+
+.contacto { text-align: left;
+  color: rgb(7, 167, 164); font-size:medium;}
+}
+
+
+/*# sourceMappingURL=styles.css.map */
